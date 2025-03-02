@@ -13,6 +13,10 @@
     padding: 1.5rem;
 }
 
+.clock {
+    color: aqua;
+}
+
 .shop-container p {
     font-size: 1.05rem;
     letter-spacing: 0.025rem;

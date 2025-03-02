@@ -1,5 +1,6 @@
 import React from 'react';
 import './Shop.css';
+import { LuCalendarClock } from "react-icons/lu";
 
 const Shop = () => {
   return (
@@ -14,7 +15,9 @@ const Shop = () => {
             </p>
             <p>Come visit my shop and enjoy a premium grooming experience in a relaxed and stylish setting.</p>
 
-            <h2>🕒 Opening Hours</h2>
+            <h2>
+                <span className='clock'><LuCalendarClock /></span> Opening Hours
+            </h2>
             <p>
                 • <b>Monday:</b> 9:00 AM - 8:00 PM
             </p>

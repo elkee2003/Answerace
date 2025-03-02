@@ -86,9 +86,9 @@ const Hero = () => {
         }} 
     >
         {/* Writ up section */}
-        <div className='writeup-container'>
+        {/* <div className='writeup-container'>
             Looking for a fresh, clean cut? You've found the right barber! I'm Answerace, a skilled professional dedicated to giving you the perfect look. Whether you need a crisp fade, a classic cut, or expert beard grooming, I make sure every client leaves with confidence.
-        </div>
+        </div> */}
 
         {/* Button container */}
         <div className="hero-book-session-container">
