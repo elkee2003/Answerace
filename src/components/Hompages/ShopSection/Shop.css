@@ -1,6 +1,5 @@
 .shop-wrapper {
     width: 100%;
-    background-color: var(--offWhite);
     display: flex; 
     align-items: center;
 }

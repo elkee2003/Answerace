@@ -1,4 +1,3 @@
-import React from 'react';
 import './Contact.css';
 import { FaPhone, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";

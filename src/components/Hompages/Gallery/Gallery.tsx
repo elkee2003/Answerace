@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+
+import { useNavigate, useLocation, useParams  } from 'react-router-dom';
 import { IoArrowBack } from "react-icons/io5";
 import './Gallery.css'; 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -9,29 +10,27 @@ import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper/modules';
 
 const Gallery = () => {
-  const mediaGallery = [
-    "/result4.jpg",
-    "/result9.jpg",
-    "/result5.jpg",
-    "/result6.jpg",
-  ]
-  const [isSwiperReady, setIsSwiperReady] = useState(false); 
+  const { id } = useParams();
   const navigate = useNavigate();
+  const location = useLocation();
+  const [currentIndex, setCurrentIndex] = useState(Number(id));
 
-  // Set isSwiperReady to true after component mounts
+  // Get images from location state
+  const images = location.state?.images || [];
+  const selectedIndex = location.state?.selectedIndex || 0;
+
   useEffect(() => {
-    if (mediaGallery.length > 0) {
-      setIsSwiperReady(true);
+    if (images.length > 0) {
+      setCurrentIndex(selectedIndex);
     }
-  }, []);
-
-
+  }, [images, selectedIndex]);
+    
   return (
     <div className="galleryContainer">
       <div onClick={() => navigate(-1)} className="backIconContainer">
         <IoArrowBack />
       </div>
-      {isSwiperReady ? (
+      {images.length > 0 ? (
         <Swiper
           modules={[Navigation, Pagination]}
           spaceBetween={10}
@@ -39,12 +38,13 @@ const Gallery = () => {
           navigation
           pagination={{ clickable: true }}
           loop={true}
+          initialSlide={currentIndex} // Start from the clicked image
           className="swiper"
         >
-          {mediaGallery.map((url, index) => (
+          {images.map((image, index) => (
             <SwiperSlide key={index}>
               <img
-                src={url || DefaultImage}
+                src={image}
                 alt={`Media ${index + 1}`}
                 className="galleryImage"
               />

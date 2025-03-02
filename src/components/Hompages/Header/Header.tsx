@@ -128,7 +128,7 @@ const Header = () => {
                 </span>
 
                 {/* Gallery */}
-                <span onClick={() => navigateAndScroll('/gallery')}>
+                <span onClick={() => navigateAndScroll('/', 'mediagrid')}>
                   Gallery
                 </span>
 

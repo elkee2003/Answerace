@@ -1,0 +1,50 @@
+/* Wrapper to enable horizontal scrolling */
+.gridContainerWrapper {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100vw;
+    padding: 10px 0;
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    -ms-overflow-style: none; /* Hide scrollbar for IE/Edge */
+    background-color: var(--offWhite);
+}
+
+/* Hide scrollbar for WebKit browsers */
+.gridContainerWrapper::-webkit-scrollbar {
+    display: none;
+}
+
+/* Make the grid scroll horizontally */
+.gridContainer {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    flex-wrap: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+/* Style for each grid item */
+.gridItem {
+  flex: 0 0 auto;
+  width: 200px; /* Adjust width based on preference */
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* Image container */
+.mediaImageContainer {
+  width: 100%;
+  aspect-ratio: 3/4;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Image styling */
+.mediaImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,17 +1,16 @@
-import React, {useState, useEffect} from 'react';
-import { useNavigate } from "react-router-dom";
+import {useState, useEffect} from 'react';
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import "./Hero.css";
 
 // Custom hook to check screen width
-const useMediaQuery = (query) => {
+const useMediaQuery = (query: string) => {
     const [matches, setMatches] = useState(window.matchMedia(query).matches);
   
     // useEffect to check media query to display background images
     useEffect(() => {
       const mediaQueryList = window.matchMedia(query);
-      const listener = (event) => setMatches(event.matches);
+      const listener = (event:  MediaQueryListEvent) => setMatches(event.matches);
   
       mediaQueryList.addEventListener("change", listener);
       return () => mediaQueryList.removeEventListener("change", listener);
@@ -21,8 +20,6 @@ const useMediaQuery = (query) => {
 }
 
 const Hero = () => {
-
-    const navigate = useNavigate();
 
     const [currentImage, setCurrentImage] = useState(0);
 
@@ -56,7 +53,7 @@ const Hero = () => {
     ]
 
     // Choose images based on screen size
-    let images;
+    let images: string[] = [];
     if (isLargeScreen) {
         images = largeScreenImages;
     } else if (isMediumScreen) {

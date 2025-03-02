@@ -1,4 +1,3 @@
-import React from 'react';
 import './Shop.css';
 import { LuCalendarClock } from "react-icons/lu";
 
