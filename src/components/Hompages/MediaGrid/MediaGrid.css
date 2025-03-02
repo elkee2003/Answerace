@@ -3,10 +3,13 @@
     overflow-x: auto;
     white-space: nowrap;
     width: 100vw;
-    padding: 10px 0;
+    /* padding: 10px 0; */
     scrollbar-width: none; /* Hide scrollbar for Firefox */
     -ms-overflow-style: none; /* Hide scrollbar for IE/Edge */
-    background-color: var(--offWhite);
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem;
 }
 
 /* Hide scrollbar for WebKit browsers */
@@ -14,8 +17,21 @@
     display: none;
 }
 
+.mediaSwiper {
+    width: 100%;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+
+.gridContainerWrapper .swipermediaslide {
+    flex-wrap: nowrap;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+
+}
+
 /* Make the grid scroll horizontally */
-.gridContainer {
+/* .gridContainer {
     display: flex;
     gap: 10px;
     padding: 10px;
@@ -23,15 +39,14 @@
     max-width: 1200px;
     margin: 0 auto;
 
-}
+} */
 
 /* Style for each grid item */
 .gridItem {
-  flex: 0 0 auto;
-  width: 200px; /* Adjust width based on preference */
-  cursor: pointer;
-  border: none;
-  background: none;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    background: none;
 }
 
 /* Image container */

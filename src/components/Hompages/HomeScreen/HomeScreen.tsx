@@ -13,8 +13,8 @@ function Home (){
             <Header/>
             <Hero/>
             <AboutMe/>
-            <Services/>
             <MediaGrid/>
+            <Services/>
             <Shop/>
             <Contact/>
             <Footer/>

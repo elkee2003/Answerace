@@ -39,7 +39,7 @@ const Gallery = () => {
           pagination={{ clickable: true }}
           loop={true}
           initialSlide={currentIndex} // Start from the clicked image
-          className="swiper"
+           className="gallerySwiper"
         >
           {images.map((image, index) => (
             <SwiperSlide key={index}>

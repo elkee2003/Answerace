@@ -117,19 +117,19 @@ const Header = () => {
                   About Me
                 </span>
 
+                {/* Gallery */}
+                <span onClick={() => navigateAndScroll('/', 'mediagrid')}>
+                  Gallery
+                </span>
+
                 {/* Services */}
                 <span onClick={() => navigateAndScroll('/', 'services')}>
                   Services
                 </span>
-
+                
                 {/* Shop*/}
                 <span onClick={() => navigateAndScroll('/', 'shop')}>
                   Shop
-                </span>
-
-                {/* Gallery */}
-                <span onClick={() => navigateAndScroll('/', 'mediagrid')}>
-                  Gallery
                 </span>
 
                 {isMobileView && (
