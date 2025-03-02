@@ -1,6 +1,7 @@
 .aboutMe-wrapper {
     width: 100%;
-    background-color: var(--offWhite);
+    background: var(--grey-black-gradient);
+    color:white;
     display: flex; 
     align-items: center;
 }
@@ -17,9 +18,17 @@
     font-size: 1.05rem;
 }
 
+.sub-head {
+    color: var(--dark-aqua);
+}
+
 .reasons {
     display: flex;
     flex-direction: column;
     letter-spacing: 0.025rem;
     gap: 0.4rem;
+}
+
+.reasons p {
+    color: #e4f0f7;
 }

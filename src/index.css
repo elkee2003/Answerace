@@ -10,7 +10,12 @@
   --grey: rgb(194, 189, 189);
   --green-gradient: linear-gradient(270deg, #00fd15 75.76%, #32831e 100%);
   --black-gradient: linear-gradient(49.05deg, #101820 50.76%, #2d2e30 100%);
-  --blue-gradient: linear-gradient(270deg, #0ae7c2 0%, #0c6969 100%);
+  --charcoal-black-gradient: radial-gradient(circle, #111111 20%, #000000  80%);
+  --grey-black-gradient: linear-gradient(70deg, #0a0a0a 50%, #1d1d1d  100%);
+  --blue-gradient: linear-gradient(270deg, #0bfff3 20%, #0ea19a 100%);
+  --pearl-gradient: linear-gradient(50deg, #f5d27b 20%, #9b9178 100%);
+  --aqua: #00ffff;
+  --dark-aqua: #dcfdfd;
   --blue: #083eb3;
   --green: rgb(3, 231, 3);
   --darkBlue: rgb(5, 11, 59);
@@ -80,13 +85,13 @@ a {
 }
 
 .primaryText {
-  color: #050524;
+  color: var(--aqua);
   font-weight: bold;
   font-size: 2.5rem;
 }
 
 .secondaryText {
-  color: rgb(110, 110, 110);
+  color: rgb(214, 214, 214);
   font-size: 1.05rem;
   line-height: 1.5rem;
   letter-spacing: 0.05rem;

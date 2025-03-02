@@ -12,7 +12,7 @@ const AboutMe = () => {
             With more than a decade of experience in precision cutting and styling, I take pride in every haircut and beard trim I do. My goal is simple—to provide you with top-notch grooming in a comfortable and friendly atmosphere.
             </p>
             
-            <h3>Why Choose Answerace?
+            <h3 className='sub-head'>Why Choose Answerace?
             </h3>
 
             <div className='reasons'>

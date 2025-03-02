@@ -29,24 +29,30 @@ const Hero = () => {
     const isSmallScreen = useMediaQuery("(min-width: 250px) and (max-width: 499px)");
 
     const largeScreenImages = [
-        "/answerbarbing.jpg",
         "/result4.jpg",
+        "/result1.jpg",
+        "/result2.jpg",
+        "/result3.jpg",
         "/result9.jpg",
         "/result5.jpg",
         "/result6.jpg",
     ];
 
     const mediumScreenImages = [
-        "/answerbarbing.jpg",
         "/result4.jpg",
+        "/result1.jpg",
+        "/result2.jpg",
+        "/result3.jpg",
         "/result9.jpg",
         "/result5.jpg",
         "/result6.jpg",
     ]
 
     const smallScreenImages = [
-        "/answerbarbing.jpg",
         "/result4.jpg",
+        "/result1.jpg",
+        "/result2.jpg",
+        "/result3.jpg",
         "/result9.jpg",
         "/result5.jpg",
         "/result6.jpg",

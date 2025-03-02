@@ -140,10 +140,6 @@ const Header = () => {
               </nav>
               <button 
                   className='button'
-                  style={{
-                      color: "white",
-                      background: "var(--black-gradient)",
-                  }}
                   onClick={() => navigateAndScroll('/', 'contact')}
               >
                   <Link 

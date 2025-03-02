@@ -51,8 +51,8 @@
   width:12rem; 
   font-size: 1.2rem; 
   font-weight: 600; 
-  color: white;
-  background: var(--black-gradient); 
+  color: rgb(3, 3, 3);
+  background: var(--blue-gradient); 
   border: none;
   border-radius: 10px;
   transition: all 0.3s ease; 
@@ -65,7 +65,7 @@
 .hero-button:hover {
   transform: scale(1.05); 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  background: var(--blue-gradient); /* Darker shade on hover */
+  background: var(--pearl-gradient); 
 }
 
 
@@ -73,19 +73,6 @@
 
 @media (min-width: 250px) and (max-width: 900px) {
 
-    .hero-button {
-        /* padding: 1rem 1.5rem;
-        width:10rem; 
-        font-size: 1rem; 
-        font-weight: 600; 
-        color: white;
-        background: var(--black-gradient); 
-        border: none;
-        border-radius: 4px;
-        transition: all 0.3s ease; 
-        text-transform: capitalize; 
-        cursor: pointer; */
-    }
 }
 
 @media (max-width: 1300px) {

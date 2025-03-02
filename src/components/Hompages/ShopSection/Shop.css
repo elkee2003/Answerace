@@ -2,6 +2,8 @@
     width: 100%;
     display: flex; 
     align-items: center;
+    background: var(--charcoal-black-gradient);
+    color: white;
 }
 
 .shop-container {
@@ -13,11 +15,12 @@
 }
 
 .clock {
-    color: aqua;
+    color: var(--aqua);
 }
 
 .shop-container p {
     font-size: 1.05rem;
     letter-spacing: 0.025rem;
     line-height: 1.5rem;;
+    color: #e4f0f7
 }

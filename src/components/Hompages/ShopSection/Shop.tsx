@@ -10,7 +10,7 @@ const Shop = () => {
         <div className="paddings innerWidth flexColStart shop-container">
             <h1 className="primaryText">Shop & Hours</h1>
             <p className="secondaryText">
-            Find Answerace At:Rainbow Town, Port Harcourt
+            Find Answerace At:Rainbow Town, Port Harcourt.
             </p>
             <p>Come visit my shop and enjoy a premium grooming experience in a relaxed and stylish setting.</p>
 

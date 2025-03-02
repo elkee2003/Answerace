@@ -3,7 +3,8 @@
     display: flex; 
     flex-direction: column;
     align-items: center;
-    background-color: var(--offWhite);
+    background: var(--grey-black-gradient);
+    color:white;
 }
 
 .service-container {
@@ -16,6 +17,11 @@
 
 .service-container p {
     font-size: 1.05rem;
+    color: #e4f0f7;
+}
+
+.service-icons {
+    color: var(--aqua);
 }
 
 .difServices {
@@ -27,6 +33,7 @@
 
 .difServices h2 {
     margin-bottom: 0.5rem;
+    color:rgb(0, 255, 234);
 }
 .difServices p {
     margin-bottom: 1rem;

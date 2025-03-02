@@ -7,9 +7,10 @@
     scrollbar-width: none; /* Hide scrollbar for Firefox */
     -ms-overflow-style: none; /* Hide scrollbar for IE/Edge */
     gap: 1rem;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
     padding: 1.5rem;
+    background: var(--charcoal-black-gradient);
 }
 
 /* Hide scrollbar for WebKit browsers */

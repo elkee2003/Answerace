@@ -21,7 +21,7 @@ const Services = () => {
             {/* Haircut & Fade Haircut */}
             <div className='difServices'>
                 <h2>
-                    <span><TbScissorsOff /></span> Haircut & Fade Haircut
+                    <span className='service-icons'><TbScissorsOff /></span> Haircut & Fade Haircut
                 </h2>
                 <p>A fade haircut blends short sides and back into longer hair on top, creating a smooth and stylish transition. Choose from:</p>
 
@@ -48,13 +48,13 @@ const Services = () => {
             {/* Balding, Beard Grooming & Lineup */}
             <div className='difServices'>
                 <h2>
-                    <span><GiRazor /></span> Balding, Beard Grooming & Lineup
+                    <span className='service-icons'><GiRazor /></span> Balding, Beard Grooming & Lineup
                 </h2>
 
                 <p>A clean-shaven or well-maintained bald head pairs perfectly with a neatly trimmed beard. This service ensures a polished, stylish, and confident appearance.</p>
 
                 <p>
-                    <span><TbScissorsOff /></span> Balding, Beard Grooming & Lineup (45 mins) - <b>₦5,000</b>
+                    <span className='service-icons'><TbScissorsOff /></span> Balding, Beard Grooming & Lineup (45 mins) - <b>₦5,000</b>
                 </p>
                 <p>
                     Includes a clean shave, beard shaping, and styling for a refined look.
@@ -64,25 +64,25 @@ const Services = () => {
             {/* Children’s Haircuts */}
             <div className='difServices'>
                 <h2>
-                    <span><LuBaby /></span> Children's Haircuts
+                    <span className='service-icons'><LuBaby /></span> Children's Haircuts
                 </h2>
 
                 <p>Gentle and stylish cuts for younger clients. I ensure a comfortable experience while delivering a fresh and trendy look for kids.</p>
 
                 <p>
-                    <span><TbScissorsOff /></span>Children's Haircuts (50 mins) - <b>₦3,000</b>
+                    <span className='service-icons'><TbScissorsOff /></span>Children's Haircuts (50 mins) - <b>₦3,000</b>
                 </p>
             </div>
 
             {/* Lineup with Enhancement (Optional Black Hair Dye) */}
             <div className='difServices'>
                 <h2>
-                    <span><FaFire /></span> Lineup with Enhancement (Optional Black Hair Dye)
+                    <span className='service-icons'><FaFire /></span> Lineup with Enhancement (Optional Black Hair Dye)
                 </h2>
 
                 <p>A lineup gives your haircut a clean and defined finish, while enhancements (optional black dye or precision edging) make the look even sharper.</p>
                 <p>
-                    <span><TbScissorsOff /></span> Lineup with Enhancement (35 mins) - <b>₦5,000</b>
+                    <span className='service-icons'><TbScissorsOff /></span> Lineup with Enhancement (35 mins) - <b>₦5,000</b>
                 </p>
                 <p>Includes razor-sharp edges and optional color enhancements.</p>
             </div>
@@ -90,13 +90,13 @@ const Services = () => {
             {/* Home Service */}
             <div className='difServices'>
                 <h2>
-                    <span><MdHome /></span> Home Service Appointments
+                    <span className='service-icons'><MdHome /></span> Home Service Appointments
                 </h2>
 
                 <p>Prefer getting your haircut in the comfort of your home? I offer premium home service where I bring the barbering experience to you.</p>
 
                 <p>
-                    <span><TbScissorsOff /></span> Home Service Appointment (1 hr 20 mins - 1 hr 45 mins) - From <b>₦25,000</b>
+                    <span className='service-icons'><TbScissorsOff /></span> Home Service Appointment (1 hr 20 mins - 1 hr 45 mins) - From <b>₦25,000</b>
                 </p>
                 <p>
                     (Price varies based on location and service type.)
