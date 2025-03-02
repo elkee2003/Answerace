@@ -1,0 +1,162 @@
+/* Background styling for the hero section */
+.hero-background {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    width: 100%;
+    padding-bottom: 2rem; 
+    transition: background-image 0.3s ease-in-out;
+  }
+  
+
+/* Button container styling */
+.hero-btn-container {
+  padding-top: 70vh;
+}
+
+.writeup-container {
+  padding-top:20vh;
+  letter-spacing: 0.05rem;
+  line-height: 2rem;
+  color: white;
+}
+
+.hero-book-session-container{
+  padding-top: 20vh;
+  padding-left: 30%;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.hero-socialmedia-container{
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  padding-left: 80%;
+  gap:30px;
+}
+.social-media-icon{
+  font-size: 3rem;
+  color: white;
+}
+
+  /* Styling for the button */
+  .hero-button {
+    padding: 0.8rem 1.5rem; 
+    width:12rem; 
+    font-size: 1.2rem; 
+    font-weight: 600; 
+    color: white;
+    background: var(--black-gradient); 
+    border: none;
+    border-radius: 4px;
+    transition: all 0.3s ease; 
+    text-transform: capitalize; 
+    margin-left: 2rem;
+    cursor: pointer;
+  }
+
+  
+  /* Button hover effect */
+  .hero-button:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: var(--blue-gradient); /* Darker shade on hover */
+  }
+
+  .heroSearchBtn {
+    min-width: 300px;
+    margin-top: -3.5%;
+    margin-left: 30vw;
+    display: flex;
+    flex-direction: row;
+    background: rgba(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    padding:10px;
+    border-radius: 20px;
+    border:2px solid rgb(36, 31, 31, 0.5);
+    box-shadow: 0px 4px 6px rgba(80, 238, 7, 0.5), 0px 1px 3px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+  }
+
+  .heroSearchBtnTxt {
+    font-size: 1.1rem;
+    color:rgb(131, 129, 129)
+  }
+
+  .searchIcon {
+    color:white;
+    background-color: rgb(3, 3, 41, 0.8);
+    padding:7px;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+
+/* For smaller devices, ensure responsiveness */
+
+@media (min-width: 250px) and (max-width: 900px) {
+
+    .hero-button {
+        padding: 1rem 1.5rem;
+        width:10rem; 
+        font-size: 1rem; 
+        font-weight: 600; 
+        color: white;
+        background: var(--black-gradient); 
+        border: none;
+        border-radius: 4px;
+        transition: all 0.3s ease; 
+        text-transform: capitalize; 
+        margin-left: 0.5rem;
+        cursor: pointer;
+    }
+    .contact-hero-button {
+        padding: 0.2rem 1.5rem;
+        width:8rem; 
+        font-size: 1rem; 
+        font-weight: 600; 
+        color: white;
+        background: var(--blue-gradient); 
+        border: none;
+        border-radius: 4px;
+        transition: all 0.3s ease; 
+        text-transform: capitalize; 
+        margin-left: 0.5rem;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 1300px) {
+  .heroSearchBtn{
+    margin-top: -5%;
+    margin-left: 50vw;
+    max-width: 300;
+  }
+}
+@media (max-width: 900px) {
+  /* .hero-btn-container {
+  } */
+  .hero-button{
+    margin-left: -3rem;
+  }
+  .heroSearchBtn{
+    margin-top: -10%;
+    margin-left: 45vw;
+    max-width: 300px
+  }
+}
+@media (max-width: 500px) {
+  .hero-button{
+    margin-left: 1.4rem;
+  }
+  .heroSearchBtn{
+    margin-top: 5%;
+    margin-left: 13vw;
+    max-width: 300px
+  }
+}
+

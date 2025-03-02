@@ -1,0 +1,20 @@
+.shop-wrapper {
+    width: 100%;
+    background-color: var(--offWhite);
+    display: flex; 
+    align-items: center;
+}
+
+.shop-container {
+    /* text-align: center; */
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.shop-container p {
+    font-size: 1.05rem;
+    letter-spacing: 0.025rem;
+    line-height: 1.5rem;;
+}

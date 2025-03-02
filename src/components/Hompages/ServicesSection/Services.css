@@ -1,0 +1,32 @@
+.service-wrapper{
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-container {
+    /* text-align: center; */
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.service-container p {
+    font-size: 1.05rem;
+}
+
+.difServices {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5rem;
+    letter-spacing: 0.025rem;
+}
+
+.difServices h2 {
+    margin-bottom: 0.5rem;
+}
+.difServices p {
+    margin-bottom: 1rem;
+}

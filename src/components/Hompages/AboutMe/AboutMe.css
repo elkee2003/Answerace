@@ -1,0 +1,25 @@
+.aboutMe-wrapper {
+    width: 100%;
+    background-color: var(--offWhite);
+    display: flex; 
+    align-items: center;
+}
+
+.aboutMe-container {
+    /* text-align: center; */
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.aboutMe-container p {
+    font-size: 1.05rem;
+}
+
+.reasons {
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0.025rem;
+    gap: 0.4rem;
+}
