@@ -8,7 +8,7 @@ import './MediaGrid.css';
 
 const MediaGrid = () => {
     const mediaGallery = [
-        "process1.jpg",
+        "/process1.jpg",
         "/result1.jpg",
         "/result2.jpg",
         "/result3.jpg",
