@@ -102,6 +102,17 @@ const Services = () => {
                     (Price varies based on location and service type.)
                 </p>
             </div>
+
+            <div className='book-button-container'>
+                <a 
+                    href="https://www.fresha.com/book-now/l6bt7azy/all-offer?id=493091&share&pId=460566" 
+                    className="book-button" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                Book Session
+                </a>
+            </div>
         </div>
     </section>
   );

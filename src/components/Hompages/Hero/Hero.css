@@ -18,6 +18,21 @@
   background-color: rgba(0, 0, 0, 0.63);
 }
 
+.writeup-container {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  padding:50px 20px;
+  font-weight: 600;
+  color:rgb(240, 239, 239);
+  z-index: 300;
+}
+
+.writeup-container span{
+  color: var(--aqua);
+}
 
 .hero-book-session-container{
   position: absolute;
@@ -79,9 +94,24 @@
 
 }
 @media (max-width: 900px) {
-
+  .writeup-container {
+    position: absolute;
+    top:50%;
+    left: 25%;
+    transform: translate(-18%, -50%);
+    font-size: 2.8rem;
+  }
+  
+  .writeup-container span{
+    color: var(--aqua);
+  }
 }
 @media (max-width: 500px) {
-
+  .writeup-container {
+    top:45%;
+    left: 10%;
+    transform: translate(-2%, -80%);
+  }
+  
 }
 

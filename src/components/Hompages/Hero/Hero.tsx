@@ -93,6 +93,10 @@ const Hero = () => {
             Looking for a fresh, clean cut? You've found the right barber! I'm Answerace, a skilled professional dedicated to giving you the perfect look. Whether you need a crisp fade, a classic cut, or expert beard grooming, I make sure every client leaves with confidence.
         </div> */}
 
+        <div className='writeup-container'>
+            Get a <span>fresh</span> clean <span>cut</span>
+        </div>
+
         {/* hero Overlay */}
         <div className='hero-Overlay'/>
 
