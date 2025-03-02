@@ -16,7 +16,7 @@ const Gallery = () => {
   const [currentIndex, setCurrentIndex] = useState(Number(id));
 
   // Get images from location state
-  const images = location.state?.images || [];
+  const images = (location.state?.images as string[]) || [];
   const selectedIndex = location.state?.selectedIndex || 0;
 
   useEffect(() => {
@@ -41,7 +41,7 @@ const Gallery = () => {
           initialSlide={currentIndex} // Start from the clicked image
            className="gallerySwiper"
         >
-          {images.map((image, index) => (
+          {images.map((image: string, index: number) => (
             <SwiperSlide key={index}>
               <img
                 src={image}

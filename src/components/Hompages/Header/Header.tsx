@@ -1,7 +1,7 @@
-import React, {useEffect, useState} from 'react';
+import {useEffect, useState} from 'react';
 import './Header.css';
 import { Link } from 'react-scroll';
-import { Link as RouterLink, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 // import useDarkScreen from '../useDarkScreen/useDarkScreen';
 
 
@@ -40,7 +40,7 @@ const Header = () => {
       setMenuOpen(false)
     }
 
-    const navigateAndScroll = (path, section) => {
+    const navigateAndScroll = (path: string, section: string) => {
       if (window.location.pathname !== path) {
         navigate(path);
         setTimeout(() => {
@@ -98,7 +98,7 @@ const Header = () => {
             />
           </span>
 
-          <div className={`hamburger ${menuOpen ? 'active' : ''}`} onClick={toggleMenu} aria-label="Toggle navigation menu" role="button" tabIndex="0">
+          <div className={`hamburger ${menuOpen ? 'active' : ''}`} onClick={toggleMenu} aria-label="Toggle navigation menu" role="button" tabIndex={0}>
             <span className="line"></span>
             <span className="line"></span>
             <span className="line"></span>
@@ -126,7 +126,7 @@ const Header = () => {
                 <span onClick={() => navigateAndScroll('/', 'services')}>
                   Services
                 </span>
-                
+
                 {/* Shop*/}
                 <span onClick={() => navigateAndScroll('/', 'shop')}>
                   Shop

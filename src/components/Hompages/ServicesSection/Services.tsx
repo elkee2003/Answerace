@@ -1,4 +1,3 @@
-import React from 'react';
 import './Services.css';
 import { MdHome } from "react-icons/md";
 import { LuBaby } from "react-icons/lu";
